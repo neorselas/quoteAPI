@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.border{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox{
+    margin: 15%;
+}
+
+#text{
+    font-size: 20px;
+    color:rgb(56, 6, 104);
+    text-align: justify;
+    font-weight: 30px;
+    /* margin: 15% 30%; */
+    padding: 30px;
+    border-top: 10px solid rgb(56, 6, 104);
+    border-bottom: 10px solid rgb(56, 6, 104);
+  
+}
+
+#text2{
+    font-size: 30px;
+    text-align: center;
+}
